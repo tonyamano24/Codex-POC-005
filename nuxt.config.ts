@@ -17,7 +17,6 @@ export default defineNuxtConfig({
     }
   },
   css: ['~/assets/css/tailwind.css'],
-  modules: ['@nuxt/image-edge'],
   postcss: {
     plugins: {
       tailwindcss: {},

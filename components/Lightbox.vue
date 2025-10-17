@@ -17,7 +17,7 @@
         </button>
         <div class="flex max-w-5xl flex-col gap-6">
           <figure class="flex flex-col gap-4 text-center">
-            <nuxt-img
+            <img
               v-if="activeImage"
               :src="activeImage.src"
               :alt="activeImage.alt"

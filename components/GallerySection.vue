@@ -20,13 +20,12 @@
             class="peer block w-full text-left focus:outline-none"
             @click="() => handleImageClick(image)"
           >
-            <nuxt-img
+            <img
               :src="image.src"
               :alt="image.alt"
               class="h-80 w-full object-cover transition duration-500 group-hover:scale-105"
               :width="640"
               :height="800"
-              format="webp"
               loading="lazy"
             />
             <span class="sr-only">Expand {{ image.title }}</span>
